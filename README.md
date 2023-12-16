@@ -41,7 +41,7 @@ sudo pacman -S mpv
 . Install [YouTube Search Python](https://github.com/alexmercerind/youtube-search-python) using the requirements file:
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 . Clone this repository:
@@ -57,7 +57,7 @@ cd musicplayer
 ```
 
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 . Make the script executable:
