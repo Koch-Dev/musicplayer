@@ -23,15 +23,9 @@ This script allows you to play audio and video from YouTube using `yt-dlp` and `
 ./main.py vplay 'video name'
 ```
 
-## 🛠️ Installation
+## manual 🛠️ Installation
 
-1. Install [yt-dlp](https://github.com/yt-dlp/yt-dlp) using the requirements file:
-
-```bash
-pip install -r requirements.txt
-```
-
-2. Install [mpv](https://mpv.io/):
+. Install [mpv](https://mpv.io/):
 
 ```bash
 # For Ubuntu/Debian
@@ -44,31 +38,35 @@ sudo dnf install mpv
 sudo pacman -S mpv
 ```
 
-3. Install [YouTube Search Python](https://github.com/alexmercerind/youtube-search-python) using the requirements file:
+. Install [YouTube Search Python](https://github.com/alexmercerind/youtube-search-python) using the requirements file:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Clone this repository:
+. Clone this repository:
 
 ```bash
 git clone https://github.com/Koch-Dev/musicplayer
 ```
 
-5. Navigate to the script directory:
+. Navigate to the script directory:
 
 ```bash
 cd musicplayer
 ```
 
-6. Make the script executable:
+```bash
+pip install -r requirements.txt
+```
+
+. Make the script executable:
 
 ```bash
 chmod +x main.py
 ```
 
-7. Run the script:
+. Run the script:
 
 ```bash
 ./main.py play 'song name'
